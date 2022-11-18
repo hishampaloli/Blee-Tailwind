@@ -18,7 +18,7 @@ const Navbar = () => {
         {navUls.map((el) => {
           return (
             <li  key={el}>
-              <button className="p-4 w-30 text-center  font-[600] cursor-pointer rounded-md mx-3 text-[#013289] focus:text-[#4154f1;]">{el}</button>                
+              <button className="p-4 w-30 text-center  font-[600] cursor-pointer rounded-md mx-3 text-[#013289] focus:text-[#4154f1]">{el}</button>                
               </li>
           );
         })}
@@ -37,7 +37,7 @@ const Navbar = () => {
           {navUls.map((el) => {
             return (
               <li key={el}>
-              <button className="p-4 w-40 text-left cursor-pointer rounded-md border-gray-50 focus:bg-green-400">{el}</button>
+              <button className="p-4 w-40 text-left cursor-pointer rounded-md border-gray-50 focus:text-[#4154f1]">{el}</button>
                 
               </li>
             );

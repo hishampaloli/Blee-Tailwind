@@ -1,8 +1,11 @@
 import React from 'react'
 import {newsletterH1,newsletterP1} from '../constants/constants'
+import Slide from 'react-reveal/Slide';
+
 
 const NewsLetter = () => {
   return (
+    <Slide bottom>
     <div className='w-full max-w-[1440px] p-10 flex flex-col items-center bg-[#f6f9ff]'>
         <h1 className='text-2xl font-medium text-[#012970]'>{newsletterH1}</h1>
         <p className='text-[#444444] mt-3'>{newsletterP1}</p>
@@ -11,6 +14,7 @@ const NewsLetter = () => {
             <button className='p-3 bg-[#4154f1] text-white px-10 py-3 rounded-sm mt-6 shadow-xl mt-4'>Subscribe</button>
         </div>
     </div>
+    </Slide>
   )
 }
 

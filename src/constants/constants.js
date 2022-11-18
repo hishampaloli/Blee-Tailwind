@@ -2,6 +2,10 @@ import cardimg1 from "../assets/img/values-1.png";
 import cardimg2 from "../assets/img/values-2.png";
 import cardimg3 from "../assets/img/values-3.png";
 
+import { BsTelephone } from "react-icons/bs";
+import { FiMail } from "react-icons/fi";
+import { CiLocationOn } from "react-icons/ci";
+import { AiOutlineClockCircle } from "react-icons/ai";
 import { FaDeezer, FaGlasses } from "react-icons/fa";
 import { BsFillEmojiSmileFill, BsFillFileTextFill } from "react-icons/bs";
 
@@ -41,60 +45,93 @@ export const serviceCard = [
 export const serciveBox = [
   {
     icon: <FaDeezer />,
-    color: '#0b198f',
+    color: "#0b198f",
     num: 132,
     title: "Happy Clients",
   },
   {
     icon: <FaGlasses />,
-    color: 'orange',
+    color: "orange",
     num: 532,
     title: "Project",
   },
   {
     icon: <BsFillEmojiSmileFill />,
-    color: 'green',
+    color: "green",
     num: 2332,
     title: "Hours Of Support",
   },
   {
     icon: <BsFillFileTextFill />,
-    color: 'pink',
+    color: "pink",
     num: 24,
     title: "Hard Workers",
   },
 ];
 
-
-export const detailsH1 = "Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero";
-export const detailsP = "Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis. Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem."
+export const detailsH1 =
+  "Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero";
+export const detailsP =
+  "Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis. Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.";
 
 export const newsletterH1 = "Our Newsletter";
-export const newsletterP1 = "Tamen quem nulla quae legam multos aute sint culpa legam noster magna";
+export const newsletterP1 =
+  "Tamen quem nulla quae legam multos aute sint culpa legam noster magna";
 
 export const contactCards = [
+  {
+    icon: <CiLocationOn />,
+    title: "Address",
+    desc1: "A108 Adam Street,",
+    desc2: "New York, NY 535022",
+  },
+  {
+    icon: <BsTelephone /> ,
+    title: "Call Us",
+    desc1: "+1 5589 55488 55,",
+    desc2: "+1 6678 254445 41",
+  },
+  {
+    icon: <FiMail />,
+    title: "Email Us",
+    desc1: "info@example.com",
+    desc2: "contact@example.com",
+  },
+  {
+    icon:  <AiOutlineClockCircle />,
+    title: "Open Hours",
+    desc1: "Monday - Friday,",
+    desc2: "9:00AM - 05:00PM",
+  },
+];
+
+
+
+export const cardCards = [
     {
-        icon: "",
-        title: "Address",
-        desc1: "A108 Adam Street,",
-        desc2: "New York, NY 535022"
+      styel: 'w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300',
+      img: "https://github.com/fireclint/data-finance-react-tailwind/blob/main/src/assets/single.png?raw=true",
+      type: "Single User",
+      price: "$149",
+      det: ["500 GB Storage", "1 Granted User", "Send up to 2 GB"],
     },
     {
-        icon: "",
-        title: "Call Us",
-        desc1: "+1 5589 55488 55,",
-        desc2: "+1 6678 254445 41"
+      styel: 'w-full md:translate-y-[-50px] shadow-xl bg-[rgba(1,1,1,.9)] text-white  flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300',
+      img: "https://github.com/fireclint/data-finance-react-tailwind/blob/main/src/assets/double.png?raw=true",
+      type: "Double User",
+      price: "$349",
+      det: ["1000 GB Storage", "5 Granted User", "Send up to 5 GB"],
     },
     {
-        icon: "",
-        title: "Email Us",
-        desc1: "info@example.com",
-        desc2: "contact@example.com"
+      styel: 'w-full md:translate-y-[-90px] shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300',
+      img: "https://github.com/fireclint/data-finance-react-tailwind/blob/main/src/assets/triple.png?raw=true",
+      type: "Triple User",
+      price: "$749",
+      det: ["3000 GB Storage", "15 Granted User", "Send up to 10 GB"],
     },
-    {
-        icon: "",
-        title: "Open Hours",
-        desc1: "Monday - Friday,",
-        desc2: "9:00AM - 05:00PM"
-    },
-]
+  ];
+  
+  
+  export const footerUl1 = ["About", "Blog", "Jobs", "Press", "Careers"]
+  export const footerUl2 = ['Web Desing', "Web Development", "Marketing", "Graphic Design"]
+  export const footerUl3 = ['Analytics', "Marketing", "Commerce", "Insighta"]

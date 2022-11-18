@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Details from "./components/Details";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import NewsLetter from "./components/NewsLetter";
@@ -17,6 +18,7 @@ function App() {
     <Details />
     <NewsLetter />
     <Contact />
+    <Footer />
     </div>
   );
 }
