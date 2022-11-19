@@ -72,7 +72,7 @@ export const serciveBox = [
 export const detailsH1 =
   "Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero";
 export const detailsP =
-  "Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis. Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.";
+  "Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta . Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis. Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.";
 
 export const newsletterH1 = "Our Newsletter";
 export const newsletterP1 =
